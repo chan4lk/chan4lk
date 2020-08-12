@@ -1,16 +1,38 @@
-### Hi there 👋
+```python
+class Chan4lk:
+    def __init__(self):
+        self.variables = {
+            'name': 'Chandima Ranaweera',
+            'age': 30,
+            'hobby': 'Developing',
+            'languages': ('Sinhala', 'English')
+        }
 
-<!--
-**chan4lk/chan4lk** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+    def description(self):
+        print('------chan4lk------')
+        for index, value in enumerate(self.variables.values()):
+            if index == 0:
+                print(f'Name: {value}')
+            elif index == 1:
+                print(f'Age: {value}')
+            elif index == 2:
+                print(f'Hobby: {value}')
+            elif index == 3:
+                print(f'Languages: {value}')
 
-Here are some ideas to get you started:
+    def social_medias(self):
+        platforms = {
+            'YouTube': 'c/ChandimaRanaweera',
+            'Instagram': 'chandima.ranaweera'
+        }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+        print('\n-----contact-----')
+        for key, value in platforms.items():
+            print(f'{key}: {value}')
+
+
+if __name__ == '__main__':
+    chan4lk = Chan4lk()
+    chan4lk.description()
+    chan4lk.social_medias()
+```
