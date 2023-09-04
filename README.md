@@ -3,7 +3,7 @@ class Chan4lk:
     def __init__(self):
         self.variables = {
             'name': 'Chandima Ranaweera',
-            'age': 31,
+            'age': 32,
             'hobby': 'Developing',
             'languages': ('Sinhala', 'English')
         }
